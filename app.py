@@ -97,15 +97,6 @@ def sttenddates(start = '2016-08-23', end='2017-08-23'):
     
     return jsonify(temps=temps)
 
-
-
-# @app.route("/api/v1.0/<start>/<end>")
-# def start_end():
-#     """* Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
-#   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive."""
-
-
-
 # 4. Define main behavior
 if __name__ == "__main__":
     app.run(debug=True)
